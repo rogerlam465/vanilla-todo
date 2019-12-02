@@ -1,0 +1,51 @@
+body {
+  display: grid;
+  place-items: center;
+  background-color: #659672;
+  color: white;
+  font-size: 1.2em;
+  font-family: 'Gupter', serif;
+}
+
+.container {
+    background-color: #8db397;
+    padding: 0 15px 15px 15px;
+    border-radius: 25px;
+    width: 25%;
+    text-align: center;
+}
+
+button {
+    border: 2px solid #659672;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    font-size: 1em;
+    font-family: 'Gupter', serif;
+    margin: 2px 5px;
+}
+
+ul {
+    list-style-type: none;
+    list-style-position: outside;
+    padding: 0;
+    margin-left: 50px;
+}
+
+#list {
+    text-align: left;
+}
+
+.checkMark {
+  background-color: red;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+h1 {
+    font-family: 'Solway', serif;
+    font-size: 48px;
+    margin: 15px;
+}
